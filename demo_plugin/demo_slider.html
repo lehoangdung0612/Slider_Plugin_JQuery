@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <link href="css/slider_plugin.css" rel="stylesheet"> -->
+</head>
+<body>
+    <div><h1>Demo Slider Plugin</h1></div>
+                <div id="sliderFrame">
+                    <div id="slider">
+                        <ul>
+                            <li><img src="images/image-slider-1.jpg" /></li>
+                            <li><img src="images/image-slider-2.jpg" /></li>
+                            <li><img src="images/image-slider-3.jpg" /></li>
+                            <li><img src="images/image-slider-4.jpg" /></li>
+                            <li><img src="images/image-slider-5.jpg" /></li>
+                            <li><img src="images/image-slider-6.jpg" /></li>
+                            <li><img src="images/image-slider-7.jpg" /></li>
+                            <li><img src="images/image-slider-8.jpg" /></li>
+                        </ul>
+                    </div>
+                 </div>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/slider_plugin/slider_plugin.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#slider').slider({'transition' : 'fade'});
+            //$('#slider').slider({'transition' : 'slide'});
+        });
+    </script>
+</body>
+</html>
